@@ -1,0 +1,21 @@
+Whisper Transcript Desktop - Quick User Guide
+
+1) Double-click start_gui.bat
+2) Choose mode:
+   - Single File: pick one audio/video file
+   - Batch Folder: pick one folder that contains media files
+3) Choose output folder
+4) Optional checkboxes:
+   - Include timestamps
+   - Include speaker labels
+5) Click Start Transcription
+
+Notes:
+- First run can be slow because model files are downloaded.
+- Default model is large-v3.
+- GPU is used automatically when available.
+- Output files are .txt files in your selected output folder.
+
+If something fails:
+- Check logs/pipeline.log
+- Verify ffmpeg is installed or set explicit ffmpeg path in the app

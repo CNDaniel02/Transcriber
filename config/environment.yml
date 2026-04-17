@@ -1,0 +1,15 @@
+name: whisper-transcribe
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ffmpeg
+  - pytorch=2.4.*
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - openai-whisper>=20240930
+      - numpy>=1.26
+      - tqdm>=4.66
